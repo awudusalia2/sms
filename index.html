@@ -1,0 +1,181 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Additional custom styles for extra small screens */
+        @media (max-width: 400px) {
+            .text-2xl {
+                font-size: 1.25rem; /* Smaller font size */
+            }
+            .p-2 {
+                padding: 0.5rem; /* Reduce padding */
+            }
+            .m-2 {
+                margin: 0.5rem; /* Reduce margin */
+            }
+            .mt-20 {
+                margin-top: 5rem; /* Adjusted margin for spacing */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
+        <!-- Left Section: Navigation and Introduction -->
+        <div class="bg-gray-100 p-4  lg:px-24 md:px-12 sm:px-6 lg:text-left text-center">
+            <nav class="flex flex-wrap gap-4 justify-center items-center mb-8">
+                <img src="aa.png" alt="Logo" class="h-20 ">
+                <ul class="flex gap-8 text-red-600 font-semibold ">
+                    <li class="hover:bg-red-600 hover:rounded-br-3xl hover:text-white hover:p-2  cursor-pointer">About</li>
+                    <li class="hover:bg-red-600 hover:rounded-br-3xl hover:text-white hover:pl-2 hover:p-2 cursor-pointer">Work</li>
+                    <li class="hover:bg-red-600 hover:rounded-br-3xl hover:text-white hover:pl-2 hover:p-2 cursor-pointer">Portfolio</li>
+                    <li class="hover:bg-red-600 hover:rounded-br-3xl hover:text-white hover:pl-2 hover:p-2 cursor-pointer">Hire Me</li>
+                </ul>
+            </nav>
+            
+            <p class="text-center text-gray-400 mt-20 font-bold">HI, I am</p>
+            <p class="text-center font-bold text-red-600 text-2xl mt-6">Awudulai Salia</p>
+            <p class="text-center text-gray-400">Software Developer</p>
+
+            <div class=" flex justify-center gap-4  mt-6 cursor-pointer">
+                <link rel="stylesheet" href="#"><img src="assets/icons/whatsapp.ico" alt="whatsapp">
+                <link rel="stylesheet" href="#"><img src="assets/icons/x.ico" alt="whatsapp">
+                <link rel="stylesheet" href="#"><img src="assets/icons/ln.ico" alt="whatsapp">
+            </div>
+        </div>
+
+        <!-- Right Section: Biography -->
+        <div class="bg-red-600 w-full">
+            <nav>
+                <img src="https://cdn.pixabay.com/photo/2018/06/27/07/45/college-student-3500990_1280.jpg" alt="Profile Picture" class="h-3/5 w-full  mx-auto ">
+            </nav>
+        </div>
+    </div>
+
+    <!-- Biography Section -->
+    <div class="grid  lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 h-auto w-full">
+        <div class="bg-yellow-50"> 
+            <div class="flex justify-center gap-4 mt-6">
+                <p class="text-violet-950 font-bold text-2xl">My</p>
+                <p class="text-violet-950 font-bold text-2xl">Biography</p>
+            </div>
+             
+            <div class="flex mt-12  bg-red-100 w-1/2 rounded-tl-3xl rounded-br-3xl justify-center items-center      mx-auto">
+                <link rel="stylesheet" href=""> <img src="assets/icons/download.ico" alt="download" class="cursor-pointer">
+                <p class=" p-2 text-center text-red-600">DOWNLOAD CV</p>
+            </div>
+            <div class="h-16"></div>
+        </div>
+        <div class="bg-yellow-50 text-justify p-6 h-auto w-full rounded-br-full">
+            <p class="text-gray-400"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sit accusantium, nihil fugit deserunt natus vitae impedit tempore reiciendis quo at mollitia illo corporis recusandae autem molestiae laudantium, atque odio.</p>
+            <div class="bg-yellow-400 rounded-full h-4 w-4 float-end "></div>
+            <div class="bg-purple-700 rounded-full h-16 w-16 float-end "></div>
+        </div>
+    </div>
+
+    <div>
+        <p class="text-purple-700 font-bold text-center text-2xl mt-12">What  can I do ?</p>
+       
+        <div class="flex flex-wrap justify-center text-center gap-10 md:gap-20 p-4">
+            <!-- UX/UI Design Icon and Label -->
+            <div class="flex flex-col items-center">
+                <img src="assets/icons/uxui.ico" alt="ux/ui" class=" md:w-20 md:h-20">
+                <p class="text-sm mt-2 md:text-base text-gray-400">UX/UI Design</p>
+            </div>
+            
+            <!-- Development Icon and Label -->
+            <div class="flex flex-col items-center">
+                <img src="assets/icons/code.ico" alt="code" class=" md:w-20 md:h-20">
+                <p class="text-sm mt-2 md:text-base text-gray-400">Development</p>
+            </div>
+        </div>
+        
+        <div>
+        <div class="bg-red-600 rounded-tr-full mt-2 h-56 flex flex-col justify-center items-center text-white font-bold sm:h-40 lg:h-56">
+            <p class="text-2xl sm:text-xl lg:text-3xl mb-12">My Latest Works</p>
+        </div>
+        
+
+        <div class="h-auto bg-white w-auto">
+           <div class="flex flex-wrap gap-4 justify-center mx-auto -mt-20 w-auto">
+                <img src="assets/images/dashboard.jpeg" alt="dashboard" >
+                <img src="assets/images/dash3.png" alt="dash3" >
+                <img src="assets/images/dash.jpeg" alt="dash" >
+           </div>
+
+           <div class="text-center mt-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat perspiciatis cum minus neque. Eos, modi. Voluptates pariatur expedita ipsam sit, quidem ab mollitia nesciunt consectetur similique alias, amet, error nulla.</p>
+
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat perspiciatis cum minus neque. Eos, modi. Voluptates pariatur expedita ipsam sit, quidem ab mollitia nesciunt consectetur similique alias, amet, error nulla.</p>
+            </div>
+           <br>
+
+            <div class="flex flex-wrap justify-center text-center gap-10 md:gap-20 p-4">
+                <!-- UX/UI Design Icon and Label -->
+                <div class="flex  items-center">
+                    <img src="assets/icons/game.ico" alt="ux/ui" class=" md:w-20 md:h-20">
+                    <p class="text-sm mt-2 md:text-base text-gray-400">Game On</p>
+                </div>
+                
+                <!-- Development Icon and Label -->
+                <div class="flex  items-center">
+                    <img src="assets/icons/download (2).ico" alt="code" class=" md:w-20 md:h-20">
+                    <p class="text-sm mt-2 md:text-base text-gray-400">Downloads</p>
+                </div>
+
+                <div class="flex  items-center">
+                    <img src="assets/icons/modern.ico" alt="code" class=" md:w-20 md:h-20">
+                    <p class="text-sm mt-2 md:text-base text-gray-400">Modern</p>
+                </div>
+            </div>
+        </div>
+       </div>
+        
+    </div>
+
+   <!-- <div class="h-56 bg-blue-600 rounded-br-full">
+        <p class=" flex justify-center items-center p-16 pb-0 text-2xl text-white">Work together with me ?</p>
+        <P class=" flex justify-center items-center text-gray-400 text-sm">Simply call or Drop a Message</P>
+    </div>--> 
+    <div class="w-auto bg-red-600 h-1 mb-0"></div>
+    <div class="bg-blue-600 rounded-br-full  h-56 flex flex-col justify-center items-center text-white">
+        <p class="text-2xl mb-2">Work together with me?</p>
+        <p class="text-gray-300 text-sm">Simply call or drop a message</p>
+    </div>
+
+    
+
+    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">InfiniteCoding™</a>. All Rights Reserved.</span>
+
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Work</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Portfolio</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:underline">Hire ME</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
