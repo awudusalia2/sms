@@ -10,7 +10,7 @@
   
   a {
     text-decoration: none;
-    color: black;
+    color: rgb(121, 120, 120);
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -49,6 +49,7 @@
     top: 5rem;
     left: 18px;
     background-color: rgb(237, 234, 234);
+    color: rgb(190, 187, 187);
   }
   
   .nav__link a {
