@@ -59,7 +59,7 @@
   }
   
   .nav__link a:hover {
-    
+    text-decoration: underline;
     color: rgb(249, 4, 4);
   }
   
